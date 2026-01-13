@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  server:
+    port:
+  cloud:
+    config:
+      server:
+        git: # git?? ???? ?? ? ?? ??? ???(commit ???? ?)
+          uri: C:\SWCAMP22\10_msa\02_KimSeonIl\config
